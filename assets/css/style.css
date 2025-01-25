@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 * {
-    margin: 0; /*externo */
-    padding: 0; /*interno*/
+    margin: 0; 
+    padding: 0; 
     font-family: "Open Sans", sans-serif;
 }
 
 body{
     height: 100vh;
     background: linear-gradient(120deg, #d45c9ed8, #cf3060da);
-    display: flex; /*segue o trio para centralizar algo no centro */
+    display: flex; 
     align-items: center;
     justify-content: center;
 }
 
 .relogio{
-    display: flex; /*para os elementos ficarem um do aldo do outro e centralizados. */
+    display: flex; 
     align-items: center;
-    justify-content: space-around; /* da espaçamento entre eles */
+    justify-content: space-around; 
     height: 200px;
     width: 550px;
     background: transparent;
@@ -28,7 +28,7 @@ body{
     height: 170px;
     width: 150px;
     display: flex; 
-    flex-direction: column; /*coloca elementos um embaixo do outro, pois o display flex por padrao vai um ao lado do outro. */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     
@@ -36,11 +36,11 @@ body{
     background: rgba(5, 5, 5, 0.9);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
     border-radius: 7px;
-    letter-spacing: 3px; /*espaçamento entre as letras */
+    letter-spacing: 3px; 
 }
 
 .relogio span{
-    font-weight: bolder; /*engrossa o tamanho da fonte */
+    font-weight: bolder; 
     font-size: 60px;
 }
 .relogio span.tempo{
